@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>test1.html页面</title>
+		<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+	</head>
+	<body>
+		请输入：
+		<input type="text" id="txta" >
+		<br />
+		第一种方式，传输入的值
+		<input type=button value="去往test2.html页面" οnclick="tiaozhuan()" /> 
+		<script type="text/javascript">
+			var tiaozhuan = function(){
+				document.location.href ='test2.html?mydata1=' + $("#txta").val();
+			}
+		</script>
+		<br />
+		第二种方式，传固定的值
+		<input type=button value="去往test2.html页面" οnclick="document.location.href ='test2.html?mydata1=ciweigudingzhi';" /> 
+	</body>
+</html>
