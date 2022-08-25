@@ -209,6 +209,21 @@ const list = [
             backgroundColor: 'rgba(255, 255, 255, 1)',
         },
     },
+    {
+        component: 'Checkbox',
+        label: '选择框',
+        icon: 'biaoge', 
+        propValue: '',
+        style: {
+            width: 600,
+            height: 200,
+            fontSize: '',
+            fontWeight: 400,
+            textAlign: 'center',
+            color: '',
+            backgroundColor: 'rgba(255, 255, 255, 1)',
+        },
+    },
 ]
 
 for (let i = 0, len = list.length; i < len; i++) {
